@@ -13,7 +13,7 @@ public class ArrayDefinition {
         names[1] = "Hoy Boy";
         names[2] = "Vladimir Putin";
         names[3] = "Stas Kastushkin";
-        for (int i = 0; i <= names.length - 1; i++) {
+        for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
         }
     }
