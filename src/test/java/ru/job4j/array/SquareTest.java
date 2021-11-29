@@ -11,6 +11,7 @@ public class SquareTest {
         int[] expected = new int[] {0, 1, 4};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenBound5Then014916() {
         int bound = 5;
