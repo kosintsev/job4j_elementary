@@ -14,7 +14,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas3Then0() {
+    public void whenArrayHas3Then2() {
         int[] data = {5, 4, 3, 2};
         int el = 3;
         int result = FindLoop.indexOf(data, el);
@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas1ThenMinus1() {
+    public void whenArrayHasNo1ThenMinus1() {
         int[] data = {3, 2, 0};
         int el = 1;
         int result = FindLoop.indexOf(data, el);
